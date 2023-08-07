@@ -1,0 +1,44 @@
+:root {
+  --colorOne: #fcaf3c;
+  --colorTwo: #ff9e9d;
+  --colorThree: #519edd;
+  --colorFour: #009473;
+}
+body {
+  background-image: url("media/blob-scene-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  color: var(--colorThree);
+}
+
+.iconBox {
+  padding: 12px;
+  height: 90px;
+  width: 150px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  background-color: var(--colorFour);
+  border-radius: 4px;
+  color: var(--colorOne); 
+}
+.material-symbols-outlined {
+  font-size: 30px;
+}
+.iconBox p {
+  color: var(--colorOne);
+ 
+}
+.iconBox:hover {
+  background-color: var(--colorThree);
+  color: var(--colorTwo);
+ 
+}
+.htmlToTextLink
+{text-decoration: none;}
