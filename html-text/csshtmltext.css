@@ -1,0 +1,78 @@
+:root {
+  --colorOne: #fcaf3c;
+  --colorTwo: #ff9e9d;
+  --colorThree: #519edd;
+  --colorFour: #009473;
+}
+body {
+  background-image: url("../media/wave-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
+}
+.backLink {
+  padding: 12px;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 12px;
+  background-color: var(--colorFour);
+  border-radius: 4px;
+  color: var(--colorOne);
+}
+
+.backLink:hover {
+  background-color: var(--colorThree);
+  color: var(--colorTwo);
+  text-decoration: none;
+}
+
+h1 {
+  color: #246091;
+  font-family: "Righteous", cursive;
+
+  text-align: center;
+}
+.refreshButton,
+.submitButton {
+  padding: 10px;
+  margin: 5px;
+  font-size: 12px;
+  background-color: var(--colorFour);
+  border-radius: 4px;
+  color: var(--colorOne);
+  border: none;
+}
+.refreshButton:hover,
+.submitButton:hover {
+  background-color: var(--colorOne);
+
+  color: var(--colorFour);
+  border: 2px solid var(--colorFour);
+}
+
+.convertbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.input,
+.output {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  align-items: center;
+  flex: 1;
+}
+
+.showboxContainer {
+  background-color: white;
+  border: 2px solid var(--colorTwo);
+  width: 240px;
+  height: 125px;
+}
